@@ -70,7 +70,7 @@ ul.filter li {
 </style>
 
 <?php if (count($selected_languages) > 1) { ?>
-<div class="pull-right">
+<div class="pull-right" style="padding-top:6px;">
   <button type="button" class="btn btn-default translator-tool" data-toggle="lightbox" data-target="#translator-tool" data-width="980px"><?php echo language::translate('title_translator_tool', 'Translator Tool'); ?></button>
 </div>
 <?php } ?>
